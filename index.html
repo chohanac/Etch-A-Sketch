@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Etch-A-Sketch</title>
+    <style>
+        h1
+        {
+            color: darkblue;
+            text-align: center;
+        }
+        .container
+        {
+
+          display: flex;
+          flex-wrap: wrap;
+          width: 640px;
+          margin: auto;
+          border: 2px solid red;
+        }
+        .square
+        {
+          width: 40px;
+          height: 40px;
+          background-color: rgb(1, 1, 1);
+          opacity: 10%;
+          box-sizing: border-box;
+        }
+        .buttons
+        {
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20vh;
+          padding: 1vh;
+        }
+    </style>
+  </head>
+  <body>
+    
+    <main>
+      <h1>Etch-A-Sketch</h1>  
+    </main>
+
+    <div class = "buttons">
+      <button id = "enter" class = "button">Pixels</button>
+      <button id = "reset" class = "button">Reset</button>
+    </div>
+    <div class = "container">
+
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
